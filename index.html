@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@900&family=Inconsolata&family=Play:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>Social Digital</title>
 </head>
 <body>
@@ -24,13 +24,52 @@
 
     <main>
         <div class="container">
-            <div class="record">
-                <h2>Gerenciamento de Dados Cadastrados</h2>
-                <div class="btns">
-                    <a class="del" href="#"><img src="/images/delete.png" alt="">  Deletar</a>
-                    <a class="new" href="#"><img src="/images/new.png" alt=""> Adicionar</a>
-                </div><!--btns-->
-            </div><!--record-->
+            <div class="content">
+                <div class="record">
+                    <h2>Gerenciamento de Dados Cadastrados</h2>
+                    <div class="btns">
+                        <a class="del" href="#"><img src="/images/delete.png" alt="">  Deletar</a>
+                        <a class="new" href="#"><img src="/images/new.png" alt=""> Adicionar</a>
+                    </div><!--btns-->
+                </div><!--record-->
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nº Membros</th>
+                            <th>E-mail</th>
+                            <th>Celular</th>
+                            <th>Telefone</th>
+                            <th>UF</th>
+                            <th>Cidade</th>
+                            <th>Bairro</th>
+                            <th>Endereço</th>
+                            <th>Data cadastro</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>familia@gmail.com</td>
+                            <td>48999414-9264</td>
+                            <td>3405-2934</td>
+                            <td>SC</td>
+                            <td>Içara</td>
+                            <td>Presidente Vargas</td>
+                            <td>Rua Cravas, 213</td>
+                            <td>10/02/2018</td>
+                            <td>
+                                <div class="actions">
+                                    <a href="#">Excluir</a>
+                                    <a href="#">Editar</a>
+                                </div><!--actions-->
+                            </td>
+                    </tbody>
+                </table>
+            
+            </div><!--content-->
             <div class="datas"></div><!--datas-->
         </div><!--container-->
     </main>
