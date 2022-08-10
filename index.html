@@ -4,40 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap" rel="stylesheet">
     <title>Social Digital</title>
 </head>
 <body>
     <header>
         <div class="top">
             <h1>Social Digital</h1>
-        </div><!--top-->    
+            <div class="links">
+                <a href="#">Admin</a>
+                <a href="#">Novo</a>
+                <a href="#">Relatórios</a>
+            </div><!--links-->
+        </div><!--top-->
     </header>
 
     <main>
         <div class="container">
             <div class="record">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Telefone</th>
-                        <th>Data Cadastro</th>
-                        <th>Ações</th>
-                    </tr>
-                </thead>
-                <tr>
-                    <td>1</td>
-                    <td>(48)99685-7414</td>
-                    <td>20/06/2020</td>
-                    <div class="action">
-                        <td><a href="#"></a></td>
-                        <td><a href="#"></a></td>
-                    </div><!--action-->
-                                    
+                <h2>Gerenciamento de Dados Cadastrados</h2>
+                <div class="btns">
+                    <a class="del" href="#"><img src="/images/delete.png" alt="">  Deletar</a>
+                    <a class="new" href="#"><img src="/images/new.png" alt=""> Adicionar</a>
+                </div><!--btns-->
             </div><!--record-->
+            <div class="datas"></div><!--datas-->
         </div><!--container-->
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="footer_bot">
+            <span>Desenvolvido por <a href="#">MonkeyCorp</a></span>
+        </div><!--footer_bot-->
+    </footer>
 </body>
 </html>
